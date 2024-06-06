@@ -1,0 +1,6 @@
+@DigitasWebApi_HostAddress = http://localhost:5131
+
+GET {{DigitasWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
