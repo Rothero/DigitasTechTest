@@ -22,7 +22,7 @@ namespace DigitasWebApi.Controllers
         {
             var result = await _taskService.GetAllDigitasTasks();
             DigitasTaskResponse response = new DigitasTaskResponse(result);
-            return Ok(result);
+            return Ok(response);
         }
 
         [HttpGet("{id:int}")]

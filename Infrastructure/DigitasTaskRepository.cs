@@ -55,7 +55,7 @@ namespace DigitasTechTest.Infrastructure
                     {
                         idTask = task.Id,
                         nameTask = task.Name,
-                        description =task.Description,
+                        description = task.Description,
                         taskOwner = task.TaskOwner,
                         dateLimit = task.DateLimit,
                         dateConcluded = task.DateConcluded,

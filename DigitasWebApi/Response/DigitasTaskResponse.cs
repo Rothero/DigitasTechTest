@@ -16,7 +16,7 @@ namespace DigitasWebApi.Response
             DateCreation = task.DateCreation;
             DateLimit = task.DateLimit;
             DateConcluded = task.DateConcluded;
-            IdStatus = task.IdStatus;
+            StatusTask = task.IdStatus.ToString();
             IsTaskOverdue = task.IsTaskOverdue;
 
         }
@@ -32,7 +32,7 @@ namespace DigitasWebApi.Response
                 DateCreation = task.DateCreation;
                 DateLimit = task.DateLimit;
                 DateConcluded = task.DateConcluded;
-                IdStatus = task.IdStatus;
+                StatusTask = task.IdStatus.ToString();
                 IsTaskOverdue = task.IsTaskOverdue;
             }
         }
@@ -46,7 +46,7 @@ namespace DigitasWebApi.Response
         public DateTime DateCreation { get; set; }
         public DateTime DateLimit { get; set; }
         public DateTime? DateConcluded { get; set; }
-        public Status IdStatus { get; set; }
+        public string StatusTask { get; set; }
         public bool IsTaskOverdue { get; set; }
 
         
